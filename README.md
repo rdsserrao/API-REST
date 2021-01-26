@@ -55,7 +55,7 @@ An easy way to get started with a Express server offering a REST API with Node.j
   
   Used by rdsserrao
   
-  ##### The APP is made in a way where it's only possible to add new messages. If you want to add a new user you can do it by changing the src/models/index.js file.
+  ### The APP is made in a way where it's only possible to add new messages. If you want to add a new user you can do it by changing the src/models/index.js file.
   To make it easyer I added a docker-compose file, so all you have to do is run this cmd in your project directory:
   
         docker compose-up -d --build
