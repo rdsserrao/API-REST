@@ -1,0 +1,15 @@
+version: '3.5'
+services:
+  apicont:
+    image: api
+    build: ./
+    container_name: apicont
+    restart: always  
+    ports:
+      - "3000:3000"
+    networks:
+      - rede
+networks:
+  rede:
+    name: rede
+    driver: "bridge"
